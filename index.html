@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8>
+    <title>Number Systems Converter</title>
+    <link rel="shortcut icon" href="icon.jpg" type="image/png">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1 class="logo">
+        0️⃣ Number Systems Converter 1️⃣
+        <div class="by">
+        </div>
+    </h1>
+
+    <table class="table">
+        <tr>
+            <td>
+                <div class="input-wrapper left">
+                    <p class="buttonText">Десятичная:</p>
+                    <input type="text" class="input" id="inputDecimal" data-base="10" placeholder="10" />
+                    <p class="buttonText">Двоичная:</p>
+                    <input type="text" class="input" id="inputBinary" data-base="2" placeholder="1010" />
+                    <p class="buttonText">Восьмеричная:</p>
+                    <input type="text" class="input" id="inputOctal" data-base="8" placeholder="12" />
+                    <p class="buttonText">Шестнадцатеричная:</p>
+                    <input type="text" class="input" id="inputHexadecimal" data-base="16" placeholder="A" />
+                </div>
+            </td>
+            <td>
+                <div class="input-wrapper">
+                    <p class="buttonText">Другие основания:</p>
+                    <input type="text" class="input" id="inputNum1" placeholder="Число" />
+                    <input type="text" class="input" id="inputBase1" placeholder="Основание (2 - 36)" value="12" maxlength="2" />
+                    <br><br>
+                    <input type="text" class="input" id="inputNum2" placeholder="Число" />
+                    <input type="text" class="input" id="inputBase2" placeholder="Основание (2 - 36)" value="36" maxlength="2" />
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

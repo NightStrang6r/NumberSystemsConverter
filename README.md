@@ -1,2 +1,2 @@
 # NumberSystemsConverter
-leightweight and simple number systems converter on HTML &amp; JS
+Lightweight and simple number systems converter on HTML & JS
